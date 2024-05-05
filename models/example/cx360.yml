@@ -1,0 +1,258 @@
+version: 2
+models:
+  - name: address
+    description: a address modell
+    columns:
+      - name: id
+        description: The primary key for this table
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: is_deleted
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: deleted_at
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: territory_type
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: territory_code
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: is_active
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: consumer_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: address_type
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: consumer_transaction_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+  - name: consumer
+    description: a consumer table
+    columns:
+      - name: id
+        description: this is a consumer table unique identification column
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: is_deleted
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: deleted_at
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: consumer_no
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: remote_utility_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: first_name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: last_name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: email
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: contact_number
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: alternate_contact_number
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: status
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: address_map
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: source
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: ownership
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: registration_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: is_vip
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_auto_pay
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_loan
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_upfront_amount
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_active
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: activate_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: is_detail_approved
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_kyc_done
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_meter_installed
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_payment_approve
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_site_verified
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: approve_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: remarks
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: connect_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: remote_plan_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: ssn
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: additional_data
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: consumer_feedback
+        description: ""
+        meta:
+          dimension:
+            type: string

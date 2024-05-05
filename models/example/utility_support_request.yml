@@ -1,0 +1,119 @@
+version: 2
+models:
+  - name: utility_support_request
+    columns:
+      - name: id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: is_deleted
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: deleted_at
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: remote_utility_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: request_type
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: product_code
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: support_request_type
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: support_request_subtype
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: extra_data
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: currency
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: rate
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: number_of_days_to_solve
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: start_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: end_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: is_active
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: workorder
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: long_description
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: short_description
+        description: ""
+        meta:
+          dimension:
+            type: string

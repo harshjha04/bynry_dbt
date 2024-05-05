@@ -1,0 +1,54 @@
+version: 2
+models:
+  - name: consumer_mapping
+    columns:
+      - name: id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: is_deleted
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: deleted_at
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: is_active
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: master_account_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: sub_account_id
+        description: ""
+        meta:
+          dimension:
+            type: number

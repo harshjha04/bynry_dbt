@@ -1,0 +1,24 @@
+rxBackend:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 3
+      host: dev-env-db.cwobqmwrpnix.us-east-1.rds.amazonaws.com
+      port: 5432
+      user: authuser
+      pass: Smart36023
+      dbname: cx360
+      schema: public
+
+    prod:
+      type: postgres
+      threads: 3
+      host: dev-env-db.cwobqmwrpnix.us-east-1.rds.amazonaws.com
+      port: 5432
+      user: authuser
+      pass: Smart36023
+      dbname: cx360
+      schema: public
+
+  target: dev

@@ -1,0 +1,79 @@
+version: 2
+models:
+  - name: outstanding
+    columns:
+      - name: id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: created_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: last_modified_user_remote_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: is_deleted
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: deleted_at
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: remote_utility_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: remote_bill_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: outstanding_balance
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: last_pay_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: due_date
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: status
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: is_active
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: consumer_id
+        description: ""
+        meta:
+          dimension:
+            type: number
