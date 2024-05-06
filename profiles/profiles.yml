@@ -1,0 +1,25 @@
+bynry_dbt:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 3
+      host: database-proxy.bynry.com
+      sslmode: disable
+      port: 6432
+      user: authuser
+      pass: Smart36023
+      dbname: cx360
+      schema: public
+
+    prod:
+      type: postgres
+      threads: 3
+      host: database-proxy.bynry.com
+      port: 7432
+      user: authuser
+      pass: Smart36023
+      dbname: cx360
+      schema: public
+
+  target: dev
