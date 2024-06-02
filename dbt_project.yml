@@ -1,7 +1,7 @@
 name: bynry_dbt
 version: 1.0.0
 config-version: 2
-profile: rxBackend
+profile: bynry_dbt
 model-paths:
   - models
 analysis-paths:

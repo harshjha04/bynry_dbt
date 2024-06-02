@@ -4,8 +4,9 @@ bynry_dbt:
     dev:
       type: postgres
       threads: 3
-      host: dev-env-db.cwobqmwrpnix.us-east-1.rds.amazonaws.com
-      port: 5432
+      host: database-proxy.bynry.com
+      sslmode: disable
+      port: 6432
       user: authuser
       pass: Smart36023
       dbname: cx360
@@ -14,8 +15,8 @@ bynry_dbt:
     prod:
       type: postgres
       threads: 3
-      host: dev-env-db.cwobqmwrpnix.us-east-1.rds.amazonaws.com
-      port: 5432
+      host: database-proxy.bynry.com
+      port: 7432
       user: authuser
       pass: Smart36023
       dbname: cx360
