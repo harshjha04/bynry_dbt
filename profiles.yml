@@ -1,4 +1,4 @@
-rxBackend:
+bynry_dbt:
   outputs:
 
     dev:
